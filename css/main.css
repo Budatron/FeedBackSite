@@ -130,8 +130,8 @@ section {position: relative; display: block;}
 #icon-1 {  background-image: url(../assets/icons/Icon1.svg); background-repeat: no-repeat; height: 110px; margin-top: 20px;}
 #icon-2 {  background-image: url(../assets/icons/Icon2.svg); background-repeat: no-repeat; height: 110px; margin-top: 20px;}
 #icon-3 {  background-image: url(../assets/icons/Icon3.svg); background-repeat: no-repeat; height: 110px; margin-top: 20px;}
-#graph-1 {  background-image: url(../assets/svggraphs/Donutgraph.svg); background-repeat: no-repeat; height: 270px; margin-top: 20px;}
-#graph-2 {  background-image: url(../assets/svggraphs/Linegraph.svg); background-repeat: no-repeat; height: 270px; margin-top: 20px;}
+#graph-1 {  background-image: url(../assets/svggraphs/Donutgraph-v.gif); background-repeat: no-repeat; height: 100px; margin-top: 20px;}
+#graph-2 {  background-image: url(../assets/svggraphs/Linegraph-vt.gif); background-repeat: no-repeat; height: 270px; margin-top: 20px;}
 #graph-3 {  background-image: url(../assets/logo/Artwork-37.gif); background-repeat: no-repeat; background-size: 100%; height: 54px; width: 54px; }
 #graph-4 {  background-image: url(../assets/logo/Artwork-38.gif); background-repeat: no-repeat; background-size: 100%; height: 54px; width: 54px; }
 #graph-5 {  background-color: red; width: 330px; height: 20px; margin-top: 20px;}
