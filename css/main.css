@@ -94,6 +94,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body, html { height: 100%; }
 #login, h1, h2, h3, h4, h5, p, button, ul, #section-7{font-family: 'gtWalsheim';}
 /*h1 { font-size: 7vw; font-weight: 600; line-height: 0.8; margin-top: 200px}*/
 h1 { font-size: 81px; font-weight: 600; line-height: 0.8; margin-top: 200px}
@@ -102,23 +103,29 @@ h3 { font-size: 24px; font-weight: 600 }
 h4 { font-size: 40px; font-weight: 600 }
 h2:after  { content: ""; display: block; width: 35px; height: 4px; margin: 17px 0 0; background: #000; }
 /*h4:before  { content: ""; display: block; width: 35px; height: 4px; margin: 170px 10px ; text-align: right; float: right; background: #000; }*/
-button { background-color: #ffa400; border-style: none; padding: 10px 20px 10px 20px; }
+button { background-color: #ffa400; border-style: none; padding: 10px 30px 10px 30px; }
 #button { position: absolute; bottom: 60px; width: 100%}
 #section-2 p { font-size: 24px; font-weight: 500 }
-#section-3 p, #login, ul, button { font-size: 14px; font-weight: 500 }
+#section-3 p, #login, ul { font-size: 14px; font-weight: 500 }
 #graph-2 ul{ font-size: 14px; font-weight: 600  }
 .footer-1 { font-size: 14px; font-weight: 500; line-height: 4px; }
-.footer-2 { font-size: 24px; }
+.footer-2, button { font-size: 24px; }
 .footer-3 ul{ font-size: 14px; font-weight: 400  }
 #login {font-weight: 600; margin-top: 30px; margin-left: -50px;}
 section {position: relative; display: block;}
 #section-1 { height: 60px; }
-#section-2 { max-height: 720px; color: white}
+#section-2 { color: white}
 #section-3 { height: 360px; background-repeat: white; }
 #section-4 { height: 390px; background-color: #f3f2f2; }
 #section-5 { height: 380px; background-color: white}
 #section-6 { height: 388px; background-color: #f3f2f2;}
 #section-7 { height: 192px; background-color: black; color: white;}
+.bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("../assets/avi-richards-c.jpg");
+    min-height: 100%;
+}
 #logo {  background-image: url(../assets/logo/logo.svg); background-repeat: no-repeat; height: 25px; margin-top: 20px;}
 #icon-1 {  background-image: url(../assets/icons/Icon1.svg); background-repeat: no-repeat; height: 110px; margin-top: 20px;}
 #icon-2 {  background-image: url(../assets/icons/Icon2.svg); background-repeat: no-repeat; height: 110px; margin-top: 20px;}
