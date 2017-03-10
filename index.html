@@ -36,7 +36,7 @@
             <div class="w3-display-middle" style="margin-top: -100px;">
                 <h1 class="">you are what <br>you read</h1>
                 <p class="">we'll help you track, optimize, & <br>analyze the substance of your news</p>
-                <div id="button" class="" style="bottom: 40px"><button>try feedback</button></div>
+                <div id="button" class="" onclick="document.getElementById('id01').style.display='block'" style="bottom: 40px"><button id="home-button">try feedback</button></div>
             </div>
             
         </section>
@@ -175,7 +175,31 @@
             </div>
         </section>
 
+        <div id="id01" class="w3-modal">
+            <div class="w3-modal-content w3-card-8 w3-animate-opacity" style="max-width:400px">
 
+              <div class="w3-center"><br>
+                <span onclick="document.getElementById('id01').style.display='none'" class="w3-closebtn w3-hover-red w3-container w3-padding-8 w3-display-topright" title="Close Modal">&times;</span>
+                <h3>Sign up for private beta</h3>
+              </div>
+
+              <form class="w3-container" action="/action_page.php">
+                <div class="w3-section">
+                  <label><b>Email</b></label>
+                  <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Email" name="email" required>
+                  <label><b>Zip Code</b></label>
+                  <input class="w3-input w3-border" type="number" max="999999" placeholder="Enter Zip Code" name="zc" required>
+                  <label><b>Age</b></label>
+                  <input class="w3-input w3-border" type="number" max="99" min="5" placeholder="Enter Age" name="age" required>
+                  <button class="w3-button w3-block send w3-section w3-padding" type="submit">Send</button>
+              </form>
+
+              <div class="w3-container w3-border-top w3-padding-8 w3-light-grey">
+                <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-red">Cancel</button>
+              </div>
+
+            </div>
+        </div>
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>

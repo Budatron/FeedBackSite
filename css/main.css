@@ -95,7 +95,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body, html { height: 100%; }
-#login, h1, h2, h3, h4, h5, p, button, ul, #section-7, #over-arrow, #over-graph{font-family: 'gtWalsheim';}
+#login, h1, h2, h3, h4, h5, p, button, ul, #section-7, #over-arrow, #over-graph, label{font-family: 'gtWalsheim';}
 /*h1 { font-size: 81px; font-weight: 600; line-height: 0.8; margin-top: 200px}*/
 h1 { font-size: 8vw ; font-weight: 600; line-height: 0.8; margin-top: 200px}
 h2 { font-size: 40px; font-weight: 600; line-height: 1.3; }
@@ -103,7 +103,7 @@ h3 { font-size: 24px; font-weight: 600 }
 h4 { font-size: 40px; font-weight: 600; line-height: 1.3; }
 h2:after  { content: ""; display: block; width: 35px; height: 4px; margin: 17px 0 0; background: #000; }
 /*h4:before  { content: ""; display: block; width: 35px; height: 4px; margin: 170px 10px ; text-align: right; float: right; background: #000; }*/
-button { background-color: #ffa400; border-style: none; padding: 8px 20px 8px 20px; font-size: 26px; font-weight: 500; }
+#home-button { background-color: #ffa400; border-style: none; padding: 8px 20px 8px 20px; font-size: 26px; font-weight: 500; }
 #button { width: 100%; }
 #section-2 p { font-size: 24px; font-weight: 500; text-shadow: 1px 1px 2px black; }
 #section-3 p, #login, ul, #over-arrow, #over-graph { font-size: 14px; font-weight: 500 }
@@ -152,6 +152,9 @@ section {position: relative; display: block;}
 .yellostx {color: #ffa400; margin-left: 20px; }
 .purpletx {color: #8820e2; margin-left: 20px; }
 .redtx {color: #e53030; margin-left: 20px; }
+
+.send {background: #00dc96;  }
+.cancel { background: #e53030; }
 /*#sectiom-2 {  background-image: url(../assets/avi-richards.jpg); background-repeat: no-repeat; height: 720px; }*/
 /*#section-2 { background-image: url(../assets/avi-richards-c.jpg); background-size: 100% auto; background-repeat: no-repeat;}*/
 /*#section-2 img { top: -500px; padding-top: -500px; margin-top: -500px;}*/
@@ -188,7 +191,7 @@ ul {list-style-type: none;}
 }
 
 @media only screen and (min-width: 601px) {
-   button { padding: 8px 40px 8px 40px; font-size: 28px; }
+    #home-button { padding: 8px 40px 8px 40px; font-size: 28px; }
 
     #section-4 { padding: 0px; }
     #section-5 { padding: 0px; }
@@ -202,7 +205,7 @@ ul {list-style-type: none;}
 }
 
 @media only screen and (min-width: 750px) {
-    button { padding: 8px 80px 8px 80px; font-size: 32px; }
+    #home-button { padding: 8px 80px 8px 80px; font-size: 32px; }
     #graph-1 { top: 60px;} 
 }
 
