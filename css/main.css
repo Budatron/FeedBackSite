@@ -107,7 +107,7 @@ button { background-color: #ffa400; border-style: none; padding: 8px 20px 8px 20
 #button { width: 100%; }
 #section-2 p { font-size: 24px; font-weight: 500; text-shadow: 1px 1px 2px black; }
 #section-3 p, #login, ul, #over-arrow, #over-graph { font-size: 14px; font-weight: 500 }
-#graph-2 ul{ font-size: 14px; font-weight: 600  }
+/*#graph-2 ul{ font-size: 14px; font-weight: 600  }*/
 .footer-1 { font-size: 14px; font-weight: 500; line-height: 4px; }
 .footer-2 { font-size: 24px; }
 .footer-3 ul{ font-size: 14px; font-weight: 400  }
@@ -116,10 +116,10 @@ section {position: relative; display: block;}
 /*#section-1 { height: 60px; }*/
 #section-2 { color: white}
 #section-3 { background-repeat: white; }
-#section-4 { background-color: #f3f2f2; }
-#section-5 { background-color: white}
-#section-6 { background-color: #f3f2f2;}
-#section-7 { background-color: black; color: white;}
+#section-4 { background-color: #f3f2f2; padding: 30px; }
+#section-5 { background-color: white; padding: 30px; }
+#section-6 { background-color: #f3f2f2; padding: 30px; }
+#section-7 { background-color: black; color: white; padding: 30px; }
 .bgimg {
     background-position: center;
     background-size: cover;
@@ -133,11 +133,11 @@ section {position: relative; display: block;}
 #icon-1 {  background-image: url(../assets/icons/Icon1.svg); background-repeat: no-repeat; height: 110px; margin-top: 20px;}
 #icon-2 {  background-image: url(../assets/icons/Icon2.svg); background-repeat: no-repeat; height: 110px; margin-top: 20px;}
 #icon-3 {  background-image: url(../assets/icons/Icon3.svg); background-repeat: no-repeat; height: 110px; margin-top: 20px;}
-#graph-1 {  background-image: url(../assets/svggraphs/Donutgraph-v3.svg); background-repeat: no-repeat; height: 270px; background-size: contain; margin-top: 20px;}
+#graph-1 {  background-image: url(../assets/svggraphs/Donutgraph-v3.svg); background-repeat: no-repeat; height: 270px; background-size: contain; position: relative; top: 80px; }
 #graph-2 {  background-image: url(../assets/svggraphs/Linegraph-vt6-01.svg); background-repeat: no-repeat; height: 400px; background-size: contain; margin-top: -20px;}
 #graph-3 {  background-image: url(../assets/logo/Artwork-37.gif); background-repeat: no-repeat; background-size: 100%; height: 54px; width: 54px; }
 #graph-4 {  background-image: url(../assets/logo/Artwork-38.gif); background-repeat: no-repeat; background-size: 100%; height: 54px; width: 54px; }
-#graph-5 {  background-color: red; width: 330px; height: 20px; margin-top: 20px;}
+#graph-5 {  background-color: red; width: 50%; height: 20px; margin-top: 20px;}
 .grad {
   background: red; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(left, rgba(229,49,48,1),rgba(50,75,237,1)); /*Safari 5.1-6*/
@@ -156,10 +156,11 @@ section {position: relative; display: block;}
 /*#section-2 { background-image: url(../assets/avi-richards-c.jpg); background-size: 100% auto; background-repeat: no-repeat;}*/
 /*#section-2 img { top: -500px; padding-top: -500px; margin-top: -500px;}*/
 ul {list-style-type: none;}
+#section-4 li { margin-bottom: 20px; }
 #section-4 ul, #section-6 ul{ margin-left: -40px; }
 /*#graph-2 ul li{ margin: 2.5px -20px;  }*/
 .lne { line-height: 0; margin-top: -15px }
-.poli { position: relative; }
+.poli { position: relative; min-width: 340px;}
 #arrow-down {
   width: 0; 
   height: 0; 
@@ -182,15 +183,18 @@ ul {list-style-type: none;}
 
 @media only screen and (min-width: 480px) {
     /*button { padding: 8px 40px 8px 40px; font-size: 28px; }*/
+    #graph-1 { top: 60px;}
+
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 601px) {
    button { padding: 8px 40px 8px 40px; font-size: 28px; }
-    #section-3 { height: 360px; }
-    #section-4 { height: 390px; }
-    #section-5 { height: 380px; }
-    #section-6 { height: 388px; }
-    #section-7 { height: 192px; }
+
+    #section-4 { padding: 0px; }
+    #section-5 { padding: 0px; }
+    #section-6 { padding: 0px; }
+    #section-7 { padding: 0px; }
+    #graph-1 { top: 80px;}
 }
 
 @media only screen and (min-width: 640px) {
@@ -198,15 +202,21 @@ ul {list-style-type: none;}
 }
 
 @media only screen and (min-width: 750px) {
-    button { padding: 8px 80px 8px 80px; font-size: 32px; } 
+    button { padding: 8px 80px 8px 80px; font-size: 32px; }
+    #graph-1 { top: 60px;} 
 }
 
 @media only screen and (min-width: 768px) {
-
+   #graph-1 { top: 40px;} 
 }
 
 @media only screen and (min-width: 1080px) {
-
+    #section-3 { height: 360px; }
+    #section-4 { height: 390px; }
+    #section-5 { height: 380px; }
+    #section-6 { height: 388px; }
+    #section-7 { height: 192px; }
+    #graph-1 { top: 20px;} 
 }
 
 @media only screen and (min-width: 1366px) {
