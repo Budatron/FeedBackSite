@@ -115,11 +115,11 @@ button { background-color: #ffa400; border-style: none; padding: 8px 20px 8px 20
 section {position: relative; display: block;}
 /*#section-1 { height: 60px; }*/
 #section-2 { color: white}
-#section-3 { height: 360px; background-repeat: white; }
-#section-4 { height: 390px; background-color: #f3f2f2; }
-#section-5 { height: 380px; background-color: white}
-#section-6 { height: 388px; background-color: #f3f2f2;}
-#section-7 { height: 192px; background-color: black; color: white;}
+#section-3 { background-repeat: white; }
+#section-4 { background-color: #f3f2f2; }
+#section-5 { background-color: white}
+#section-6 { background-color: #f3f2f2;}
+#section-7 { background-color: black; color: white;}
 .bgimg {
     background-position: center;
     background-size: cover;
@@ -186,6 +186,11 @@ ul {list-style-type: none;}
 
 @media only screen and (min-width: 600px) {
    button { padding: 8px 40px 8px 40px; font-size: 28px; }
+    #section-3 { height: 360px; }
+    #section-4 { height: 390px; }
+    #section-5 { height: 380px; }
+    #section-6 { height: 388px; }
+    #section-7 { height: 192px; }
 }
 
 @media only screen and (min-width: 640px) {
